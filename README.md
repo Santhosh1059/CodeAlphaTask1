@@ -1,80 +1,71 @@
 # CodeAlphaTask1
-# 🗂️ TASKFLOW — Co-Working Project Suite
+## 🛍️ SHOPSMART — Intelligent Product Discovery
 
-TaskFlow is a lightweight, collaborative workspace designed to help teams organize work, streamline communication, and manage shared project structures. This version sets the foundation for a scalable team productivity ecosystem.
+ShopSmart is an early-phase shopping intelligence interface engineered to simplify product exploration across multiple categories. The goal is to form a structured, visually balanced system that improves the user's ability to browse, compare, and interact with product datasets.
 
-# 🌍 Live Preview
-🔗 https://teamtask.zite.so
+# 🌐 Live Version
 
-# 🧩 Concept Summary
-TaskFlow introduces a clear, card-based workflow system where teams can:
+🔗 https://shopsmart.zite.so
 
-Build shared group projects
+# 🧠 Project Essence
 
-Create and assign actionable tasks
+The application’s initial build focuses on:
 
-Discuss work through structured comments
+A clean category segmentation for items
 
-Maintain an authenticated, secure environment
+Static data modeling for initial product datasets
 
-Manage progress through board-style visualization
+Modular UI components for easy scaling
 
-This build focuses on establishing the core mechanics with room for advanced features down the line.
+Clothing & device category foundations
 
-# ⚡ Key Capabilities
-✔ Implemented
-User onboarding & authentication
+Organized pages for smooth user transitions
 
-Multi-level project creation
+ShopSmart’s architecture is crafted with long-term expansion in mind — such as search systems, richer product metadata, and backend-powered interactions.
 
-Task assignment & ownership tracking
+# 🌟 Features
+✔ Current Foundations
 
-In-task threaded conversations
+Category-based browsing
 
-Clean modular UI
+Static product entries (expandable)
 
-# 🛠 In Progress
-Multi-column board management
+Clothing section prototype
 
-Realtime notifications (WebSockets)
+Device listing structure
 
-Activity timeline
+Modern UI with reusable components
 
-Advanced workspace controls
+# 🧭 Future Directions
 
-# 🏛 High-Level System Sketch
- Authentication
-     │
-     ▼
-  Users ───► Projects ───► Tasks ───► Comments
-                │            │
-                │            └── Assignment Layer
-                └── Future: Role Management
+Search + smart filtering
 
-# 🔧 Tech Stack
+Dynamic product API
 
-Frontend: React / Next.js, Tailwind
-Backend: Node.js, Express, MongoDB
-Realtime: Socket.io (planned)
-Hosting: Zite
+User accounts & wishlist
 
-# 📸 Interface Snapshot
+Cart system
 
-# Project BluePrint
+Better product recommendation logic
 
-taskflow/
-│── server/
-│── client/
-│   ├── ui/
-│   ├── hooks/
-│   ├── data/
-│── config/
-└── README.md
 
-# 🤝 Contribution
+# 🔧 Technology Stack
 
-Open to suggestions, improvements, and PRs.
+Framework: React / Next.js
+Styling: Tailwind CSS
+Deployment: Zite
+Data: JSON-based product schema (initial release)
 
-# ⭐ Support
+# 💻 Setup Instructions
+git clone https://github.com/Santhosh1059/CodeAlphaTask1.git
+cd shopsmart
+npm install
+npm run dev
 
-If you like the structure of TaskFlow, please consider starring the project!
+# 🤝 Contributions
+
+Open to contributors exploring UI/UX, product architecture, or feature implementations.
+
+# ⭐ Appreciation
+
+If ShopSmart aligns with your vision of modern product discovery, drop a star on the repository!
